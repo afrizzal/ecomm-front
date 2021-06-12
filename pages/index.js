@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Link from 'next/link'
 export default function Home() {
   return (
     <div className="container">
@@ -7,6 +7,9 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+          <Link href="/about">
+              <a>Menuju ke About Page</a>
+          </Link>
 
       <main>
         <h1 className="title">
